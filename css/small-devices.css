@@ -1,4 +1,4 @@
-@media only screen and (min-width : 480px) and (max-width : 999px) {
+@media only screen and (min-width : 480px) and (max-width : 1139px) {
     /* HEADER */
 
     .header {
@@ -21,22 +21,20 @@
 
     .header-navigation {
         margin: 41px auto 0 auto;
-        display: flex;
-        justify-content: space-around;
         max-width: 600px;
     }
 
     .header-navigation a {
         color: #FFF;
-        padding: 11px;
+        padding: 15px 18px;
         margin-top: 5px;
     }
 
     .header-navigation a:hover {
         color: #5584FF;
         border: #5584FF solid 1px;
-        border-radius: 15px;
-        padding: 10px;
+        border-radius: 20px;
+        padding: 14px 17px;
     }
 
     .header h1 {
@@ -71,6 +69,15 @@
     
     .first-section__top_text-element img {
         margin: 0 auto;
+    }
+
+    .first-section__bottom_left_text p {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .first-section__bottom_left_text {
+        margin-left: 0;
     }
 
     .first-section__top_text-elements {
